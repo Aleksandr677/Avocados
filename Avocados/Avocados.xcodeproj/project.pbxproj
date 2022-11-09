@@ -11,6 +11,10 @@
 		7653E114291BF232007698C6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7653E113291BF232007698C6 /* ContentView.swift */; };
 		7653E116291BF233007698C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7653E115291BF233007698C6 /* Assets.xcassets */; };
 		7653E119291BF233007698C6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7653E118291BF233007698C6 /* Preview Assets.xcassets */; };
+		7653E124291BFDA4007698C6 /* AvocadosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7653E123291BFDA4007698C6 /* AvocadosView.swift */; };
+		7653E126291BFDD5007698C6 /* RipeningStagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7653E125291BFDD5007698C6 /* RipeningStagesView.swift */; };
+		7653E128291BFDF9007698C6 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7653E127291BFDF9007698C6 /* SettingsView.swift */; };
+		7653E12A291BFE1E007698C6 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7653E129291BFE1E007698C6 /* AppView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,11 @@
 		7653E113291BF232007698C6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7653E115291BF233007698C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7653E118291BF233007698C6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7653E11F291BFB52007698C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		7653E123291BFDA4007698C6 /* AvocadosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvocadosView.swift; sourceTree = "<group>"; };
+		7653E125291BFDD5007698C6 /* RipeningStagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningStagesView.swift; sourceTree = "<group>"; };
+		7653E127291BFDF9007698C6 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		7653E129291BFE1E007698C6 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +60,11 @@
 		7653E110291BF232007698C6 /* Avocados */ = {
 			isa = PBXGroup;
 			children = (
+				7653E122291BFD65007698C6 /* View */,
+				7653E121291BFD5E007698C6 /* Model */,
+				7653E120291BFD53007698C6 /* Data */,
+				7653E11F291BFB52007698C6 /* Info.plist */,
 				7653E111291BF232007698C6 /* AvocadosApp.swift */,
-				7653E113291BF232007698C6 /* ContentView.swift */,
 				7653E115291BF233007698C6 /* Assets.xcassets */,
 				7653E117291BF233007698C6 /* Preview Content */,
 			);
@@ -65,6 +77,32 @@
 				7653E118291BF233007698C6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7653E120291BFD53007698C6 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		7653E121291BFD5E007698C6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7653E122291BFD65007698C6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7653E113291BF232007698C6 /* ContentView.swift */,
+				7653E123291BFDA4007698C6 /* AvocadosView.swift */,
+				7653E125291BFDD5007698C6 /* RipeningStagesView.swift */,
+				7653E127291BFDF9007698C6 /* SettingsView.swift */,
+				7653E129291BFE1E007698C6 /* AppView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +175,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7653E128291BFDF9007698C6 /* SettingsView.swift in Sources */,
 				7653E114291BF232007698C6 /* ContentView.swift in Sources */,
+				7653E12A291BFE1E007698C6 /* AppView.swift in Sources */,
+				7653E126291BFDD5007698C6 /* RipeningStagesView.swift in Sources */,
 				7653E112291BF232007698C6 /* AvocadosApp.swift in Sources */,
+				7653E124291BFDA4007698C6 /* AvocadosView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +312,9 @@
 				DEVELOPMENT_TEAM = THGV2QJ4R5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Avocados/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -299,9 +341,9 @@
 				DEVELOPMENT_TEAM = THGV2QJ4R5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Avocados/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
