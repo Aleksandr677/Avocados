@@ -28,6 +28,9 @@
 		768E4871291D52DA00CF676C /* RecipeRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768E4870291D52DA00CF676C /* RecipeRatingView.swift */; };
 		768E4873291D538400CF676C /* RecipeCookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768E4872291D538400CF676C /* RecipeCookingView.swift */; };
 		768E4875291D541300CF676C /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768E4874291D541300CF676C /* RecipeDetailView.swift */; };
+		768E4877291D6A9600CF676C /* RipeningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768E4876291D6A9600CF676C /* RipeningView.swift */; };
+		768E4879291D70CF00CF676C /* RipeningModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768E4878291D70CF00CF676C /* RipeningModel.swift */; };
+		768E487B291D715C00CF676C /* RipeningData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768E487A291D715C00CF676C /* RipeningData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +57,9 @@
 		768E4870291D52DA00CF676C /* RecipeRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeRatingView.swift; sourceTree = "<group>"; };
 		768E4872291D538400CF676C /* RecipeCookingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCookingView.swift; sourceTree = "<group>"; };
 		768E4874291D541300CF676C /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
+		768E4876291D6A9600CF676C /* RipeningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningView.swift; sourceTree = "<group>"; };
+		768E4878291D70CF00CF676C /* RipeningModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningModel.swift; sourceTree = "<group>"; };
+		768E487A291D715C00CF676C /* RipeningData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +117,7 @@
 				7653E12F291C1A0B007698C6 /* HeaderData.swift */,
 				768E4868291D462E00CF676C /* FactData.swift */,
 				768E486C291D4C3800CF676C /* RecipeData.swift */,
+				768E487A291D715C00CF676C /* RipeningData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -121,6 +128,7 @@
 				7653E12D291C19AC007698C6 /* HeaderModel.swift */,
 				768E4866291D45E200CF676C /* FactModel.swift */,
 				768E486A291D4B8F00CF676C /* RecipeModel.swift */,
+				768E4878291D70CF00CF676C /* RipeningModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -140,6 +148,7 @@
 				768E4870291D52DA00CF676C /* RecipeRatingView.swift */,
 				768E4872291D538400CF676C /* RecipeCookingView.swift */,
 				768E4874291D541300CF676C /* RecipeDetailView.swift */,
+				768E4876291D6A9600CF676C /* RipeningView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -216,8 +225,10 @@
 			files = (
 				7653E128291BFDF9007698C6 /* SettingsView.swift in Sources */,
 				768E4871291D52DA00CF676C /* RecipeRatingView.swift in Sources */,
+				768E4879291D70CF00CF676C /* RipeningModel.swift in Sources */,
 				7653E114291BF232007698C6 /* ContentView.swift in Sources */,
 				7653E12A291BFE1E007698C6 /* AppView.swift in Sources */,
+				768E487B291D715C00CF676C /* RipeningData.swift in Sources */,
 				7653E126291BFDD5007698C6 /* RipeningStagesView.swift in Sources */,
 				7653E112291BF232007698C6 /* AvocadosApp.swift in Sources */,
 				7653E124291BFDA4007698C6 /* AvocadosView.swift in Sources */,
@@ -226,6 +237,7 @@
 				7653E130291C1A0B007698C6 /* HeaderData.swift in Sources */,
 				7653E132291C1CFE007698C6 /* DishesView.swift in Sources */,
 				768E4873291D538400CF676C /* RecipeCookingView.swift in Sources */,
+				768E4877291D6A9600CF676C /* RipeningView.swift in Sources */,
 				768E4867291D45E200CF676C /* FactModel.swift in Sources */,
 				768E4865291D427700CF676C /* FactsView.swift in Sources */,
 				768E486F291D4CA600CF676C /* RecipeCardView.swift in Sources */,
