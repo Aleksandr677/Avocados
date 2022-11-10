@@ -25,6 +25,9 @@
 		768E486B291D4B8F00CF676C /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768E486A291D4B8F00CF676C /* RecipeModel.swift */; };
 		768E486D291D4C3800CF676C /* RecipeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768E486C291D4C3800CF676C /* RecipeData.swift */; };
 		768E486F291D4CA600CF676C /* RecipeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768E486E291D4CA600CF676C /* RecipeCardView.swift */; };
+		768E4871291D52DA00CF676C /* RecipeRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768E4870291D52DA00CF676C /* RecipeRatingView.swift */; };
+		768E4873291D538400CF676C /* RecipeCookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768E4872291D538400CF676C /* RecipeCookingView.swift */; };
+		768E4875291D541300CF676C /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768E4874291D541300CF676C /* RecipeDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +51,9 @@
 		768E486A291D4B8F00CF676C /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
 		768E486C291D4C3800CF676C /* RecipeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeData.swift; sourceTree = "<group>"; };
 		768E486E291D4CA600CF676C /* RecipeCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCardView.swift; sourceTree = "<group>"; };
+		768E4870291D52DA00CF676C /* RecipeRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeRatingView.swift; sourceTree = "<group>"; };
+		768E4872291D538400CF676C /* RecipeCookingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCookingView.swift; sourceTree = "<group>"; };
+		768E4874291D541300CF676C /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +137,9 @@
 				7653E131291C1CFE007698C6 /* DishesView.swift */,
 				768E4864291D427700CF676C /* FactsView.swift */,
 				768E486E291D4CA600CF676C /* RecipeCardView.swift */,
+				768E4870291D52DA00CF676C /* RecipeRatingView.swift */,
+				768E4872291D538400CF676C /* RecipeCookingView.swift */,
+				768E4874291D541300CF676C /* RecipeDetailView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -206,6 +215,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7653E128291BFDF9007698C6 /* SettingsView.swift in Sources */,
+				768E4871291D52DA00CF676C /* RecipeRatingView.swift in Sources */,
 				7653E114291BF232007698C6 /* ContentView.swift in Sources */,
 				7653E12A291BFE1E007698C6 /* AppView.swift in Sources */,
 				7653E126291BFDD5007698C6 /* RipeningStagesView.swift in Sources */,
@@ -215,11 +225,13 @@
 				768E486B291D4B8F00CF676C /* RecipeModel.swift in Sources */,
 				7653E130291C1A0B007698C6 /* HeaderData.swift in Sources */,
 				7653E132291C1CFE007698C6 /* DishesView.swift in Sources */,
+				768E4873291D538400CF676C /* RecipeCookingView.swift in Sources */,
 				768E4867291D45E200CF676C /* FactModel.swift in Sources */,
 				768E4865291D427700CF676C /* FactsView.swift in Sources */,
 				768E486F291D4CA600CF676C /* RecipeCardView.swift in Sources */,
 				768E486D291D4C3800CF676C /* RecipeData.swift in Sources */,
 				7653E12C291C14FA007698C6 /* HeaderView.swift in Sources */,
+				768E4875291D541300CF676C /* RecipeDetailView.swift in Sources */,
 				768E4869291D462E00CF676C /* FactData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -356,7 +368,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -385,7 +397,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
