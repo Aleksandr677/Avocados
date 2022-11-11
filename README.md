@@ -46,4 +46,4 @@ Stack:
 4. Environment
 5. Custom elements
 6. Custom animations
-
+7. Dark / Light mode
